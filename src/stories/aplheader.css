@@ -1,4 +1,8 @@
-
+img#hero {
+    max-width: 100%;
+ margin-top: -10px;
+ height: auto;
+}
 ul.menu {
   margin-left: 1em; /* LTR */
   padding: 0;

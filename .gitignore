@@ -1,0 +1,6 @@
+*.swp
+.DS_Store
+build-storybook.log
+node_modules/*
+public/.DS_Store
+yarn.lock
