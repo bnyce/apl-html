@@ -1,0 +1,30 @@
+#block-panels-mini-footer-container .inside {
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#more-than-books {
+	margin-left: 10px;
+}
+#footer-links1 {
+	margin-left: 5px;
+}
+.vefl-1col {
+	background: white;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+}
+
+#apl-main-image {
+    display: block;
+	width: 580px !important;
+	max-width: 580px !important;
+	margin: 0 auto;
+}
+.apl-event-node {
+	width: 550px !important;
+	max-width: 550px !important;
+	margin: 0 auto;
+}
