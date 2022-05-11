@@ -1,0 +1,19 @@
+.apl-db-subject, .apl-event-tag, .apl-item-facet, .apl-activity, .apl-page, .apl-location, .apl-database, .apl-event {
+	padding: 15px;
+	border: none !important;
+	background: white;
+	text-align: left;
+}
+.apl-title, .apl-item .field-title, .apl-db-subject .field-title, .apl-event-tag .field-title, .apl-item-facet .field-title, .apl-activity .field-title, .apl-page .field-title, .apl-location .field-title, .apl-database .field-title, .apl-event .field-title {
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+.apl-item a, .apl-title a, .field-title a {
+	text-decoration: none;
+}
+.apl-item a:hover, .apl-title a:hover, .field-title a:hover {
+	text-decoration: underline;
+}
+a, .link {
+    color: #0071bc; 
+}
