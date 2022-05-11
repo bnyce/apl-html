@@ -1,3 +1,25 @@
+.apl-event-snippet {
+    max-width: 550px;
+    background: white;
+}
+#apl-events-sidebar {
+    max-width: 330px;
+    background: white;
+}
+#apl-events-sidebar {
+    padding: 1px 15px;
+}
+#apl-events-nav li {
+	list-style: none;
+}
+#apl-events-nav {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+    background: white;
+}
+
+
 .apl-db-subject, .apl-event-tag, .apl-item-facet, .apl-activity, .apl-page, .apl-location, .apl-database, .apl-event {
 	padding: 15px;
 	border: none !important;

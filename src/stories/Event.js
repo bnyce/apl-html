@@ -1,6 +1,7 @@
 import './event.css';
 import './icons.css';
 import './fixer.css';
+import './headers.css';
 
 export const createEvent = ({
   internal = false,
