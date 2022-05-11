@@ -4,9 +4,9 @@
 	background: white;
 	text-align: left;
 }
-.apl-title, .apl-item .field-title, .apl-db-subject .field-title, .apl-event-tag .field-title, .apl-item-facet .field-title, .apl-activity .field-title, .apl-page .field-title, .apl-location .field-title, .apl-database .field-title, .apl-event .field-title {
+.apl-event-snippet .apl-title, .apl-item .field-title, .apl-db-subject .field-title, .apl-event-tag .field-title, .apl-item-facet .field-title, .apl-activity .field-title, .apl-page .field-title, .apl-location .field-title, .apl-database .field-title, .apl-event .field-title {
 	margin-bottom: 10px;
-	font-size: 22px;
+	font-size: 22px !important;
 }
 .apl-item a, .apl-title a, .field-title a {
 	text-decoration: none;
@@ -16,4 +16,87 @@
 }
 a, .link {
     color: #0071bc; 
+}
+.usa-button.usa-button-outline,
+.usa-button.usa-button-outlined,
+.usa-button.usa-button-outline:hover,
+.usa-button.usa-button-outlined:hover {
+  background-color: white;
+  color: #0071bc;
+}
+.usa-button {
+	background-color: #0071bc;
+	appearance: none;
+	-webkit-appearance: none;
+	border: 0;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+/*	font-family: "Source Sans Pro","Helvetica","Arial",sans-serif;*/
+	font-weight: normal;
+	line-height: 1;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+	outline: none;
+	padding: .6em .8em;
+	text-align: center;
+	text-decoration: none;
+	width: auto;
+	-webkit-font-smoothing: antialiased;
+}
+.usa-button:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+.block.block-views .usa-button {
+	margin-top: 20px;
+}
+.field-title,
+.apl-event-node .field-title {
+	font-size: 40px !important;
+	font-weight: bold;
+	margin-bottom: 20px !important;
+}
+.messages__content .usa-button.usa-button-outline {
+	text-decoration: none;
+}
+.messages__content .usa-button.usa-button-outline:hover {
+	text-decoration: underline;
+}
+#block-intendedaudience-2 h2, 
+#block-intendedaudience-2 > div {
+	padding: 1px 15px;
+}
+
+#block-intendedaudience-2 {
+	background: white;
+}
+#apl-events-nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+.children {
+	background: #9696c9 !important;
+}
+
+.teen {
+	background: #009ABE !important;
+}
+
+.adult {
+	background: #7DC142 !important;
+}
+.apl-rec-age,
+.apl-event-summary {
+	margin-bottom: 20px;
+}
+.apl-free {
+	margin: 20px 0 10px;
+}
+.apl-item-list {
+	margin: 20px 20px 0 0;
 }
