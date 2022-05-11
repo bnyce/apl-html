@@ -4,11 +4,11 @@ import { createAPLHeader, getNavigationBarString, getHeroString } from './APLHea
 
 export default {
   title: 'APL/Header',
-  argTypes: {
- /*   onLogin: { action: 'onLogin' },
+ /*  argTypes: {
+   onLogin: { action: 'onLogin' },
     onLogout: { action: 'onLogout' },
-    onCreateAccount: { action: 'onCreateAccount' }, */
-  },
+    onCreateAccount: { action: 'onCreateAccount' }, 
+  },*/
 };
 
 const Template = (args) => createAPLHeader(args);

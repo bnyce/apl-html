@@ -1,4 +1,5 @@
 import './event.css';
+import './html.css';
 import './icons.css';
 import './fixer.css';
 import './headers.css';
