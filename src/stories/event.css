@@ -2,9 +2,14 @@
     max-width: 550px;
     background: white;
 }
+#apl-main-image,
+.apl-event-node {
+    float: left;
+}
 #apl-events-sidebar {
     max-width: 330px;
     background: white;
+    float: left;
 }
 #apl-events-sidebar {
     padding: 1px 15px;
