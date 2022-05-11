@@ -2,6 +2,9 @@
     max-width: 550px;
     background: white;
 }
+#apl-main-image {
+    margin: -15px 0 0 -15px !important;
+}
 #apl-main-image,
 .column-2,
 .apl-event-node {
