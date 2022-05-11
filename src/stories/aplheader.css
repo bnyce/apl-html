@@ -121,12 +121,6 @@ html body #apl-menu-2015, html body .container.apl_menu, html body #block-menu-m
 #apl_logo img {
 	min-width: 85px;
 }
-body #more-than-books h2.pane-title {
-	margin-left: 5px;
-	background-image: url("https://library.austintexas.gov/library/misc/more_than_books_tagline-01b.jpg") !important;
-	margin-top: 5px;
-	background-color: transparent !important;
-}
 #apl_logo img {
 	height: 85px !important;
 }
@@ -199,19 +193,7 @@ h3 {
 	color: white;
 	text-decoration: underline;
 }
-#block-views-block-sections-block-6 span {
-	display: none;
-}
-body #more-than-books h2.pane-title {
-	margin-left: 5px;
-	background-image: url("/library/misc/more_than_books_tagline-01b.jpg") !important;
-	text-indent: -9999px;
-	background-color: transparent !important;
-	display: block;
-	background-size: 220px;
-	background-repeat: no-repeat;
-	margin-top: 20px;
-}
+
 .block.block-layout-builder.block-field-blocknodeactivity-pagebody {
 	padding: 1px 15px;
 }

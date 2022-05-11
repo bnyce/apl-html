@@ -1,6 +1,7 @@
 #footer {
 	background-color: #56565a;
 	padding-bottom: 30px;
+    clear: both;
 }
 body #more-than-books h2.pane-title {
 	margin-left: 5px;
