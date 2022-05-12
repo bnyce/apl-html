@@ -1,4 +1,4 @@
-import { getSLRRequestString, getSLRCalendarString } from './SLRRequest';
+import { getSLRRequestString, getSLRCalendarString, getSLRConfirmationString, getSLRConfirmedString } from './SLRRequest';
 import './uswds.css';
 import './SLRRequest.css';
 import './room-options.css';
@@ -25,3 +25,5 @@ const Template = ({ label, ...args }) => {
 
 export const SLRRequest = () => getSLRRequestString();
 export const SLRCalendar = () => getSLRCalendarString();
+export const SLRConfirmation = () => getSLRConfirmationString();
+export const SLRConfirmed = () => getSLRConfirmedString();
