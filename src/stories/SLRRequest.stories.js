@@ -1,7 +1,8 @@
-import { getSLRRequestString } from './SLRRequest';
+import { getSLRRequestString, getSLRCalendarString } from './SLRRequest';
 import './uswds.css';
 import './SLRRequest.css';
 import './room-options.css';
+import './slr-calendar.css';
 
 export default {
   title: 'SLRs/SLR Request',
@@ -23,3 +24,4 @@ const Template = ({ label, ...args }) => {
 };
 
 export const SLRRequest = () => getSLRRequestString();
+export const SLRCalendar = () => getSLRCalendarString();
