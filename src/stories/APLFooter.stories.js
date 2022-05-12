@@ -1,11 +1,9 @@
-import { createAPLHeader, getFooterString } from './APLFooter';
+import { getAPLFooterString } from './APLFooter';
 
 export default {
   title: 'APL/Footer',
 };
 
-const Template = (args) => createAPLFooter(args);
+const myAPLFooter = getAPLFooterString();
 
-const myFooter = getFooterString();
-
-export const APLFooter = () => myFooter;
+export const APLFooter = () => myAPLFooter;
