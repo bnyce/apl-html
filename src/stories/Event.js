@@ -1,4 +1,6 @@
-import './event.css';
+//import './eventSnippet.css';
+import './eventSnippet2.css';
+/*
 import './html.css';
 import './icons.css';
 import './fixer.css';
@@ -8,7 +10,7 @@ import './form.css';
 import './form-select.css';
 import './form-text.css';
 import './normalize.css';
-
+*/
 
 
 export function getCalendarString() {
@@ -20,7 +22,7 @@ export function getNodeString() {
     return NodeString;
 }
 export function getNavString() {
-    const NavString = '<div id="apl-events-sidebar"><h2>APL Events</h2><ul id="apl-events-nav"><li><a class="usa-button adult" href="https://library.austintexas.gov/events?f%5B0%5D=audience_%3A29">Adult</a></li><li><a class="usa-button children" href="/events?f%5B0%5D=audience_%3A32">Children</a></li><li><a class="usa-button teen" href="https://library.austintexas.gov/events?f%5B0%5D=audience_%3A31">Teen</a></li><li><a class="usa-button usa-button-outline all" href="/events">Events List</a></li><li><a class="usa-button usa-button-outline all" href="/events/calendar">Events Calendar</a></li><li><a class="usa-button usa-button-outline all" href="/events/exhibits">Current Exhibits</a></li></ul></div>';
+    const NavString = '<div id="apl-events-sidebar"><h2>APL Events</h2><ul id="apl-events-nav"><li><a class="usa-button adult" href="https://library.austintexas.gov/events?f%5B0%5D=audience_%3A29">Adult</a></li><li><a class="usa-button children" href="/events?f%5B0%5D=audience_%3A32">Children</a></li><li><a class="usa-button teen" href="https://library.austintexas.gov/events?f%5B0%5D=audience_%3A31">Teen</a></li><li id="events-list"><a class="usa-button usa-button-outline all" href="/events">Events List</a></li><li><a class="usa-button usa-button-outline all" href="/events/calendar">Events Calendar</a></li><li><a class="usa-button usa-button-outline all" href="/events/exhibits">Current Exhibits</a></li></ul></div>';
     return NavString;
 }
 export function getTagString() {

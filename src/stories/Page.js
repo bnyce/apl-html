@@ -1,4 +1,4 @@
-import './page.css';
+//import './page.css';
 import { createHeader } from './Header';
 
 export const createPage = ({ user, onLogout, onLogin, onCreateAccount }) => {
