@@ -2,7 +2,7 @@ import { createExhibit, getExhibitString } from './Exhibit';
 
 // More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
 export default {
-  title: 'APL/Exhibit',
+  title: 'Exhibits/Exhibit',
   argTypes: { 
       field_ex_main_image: { control: { type: 'file', accept: ['.png','.jpg'] } }}
   // More on argTypes: https://storybook.js.org/docs/html/api/argtypes

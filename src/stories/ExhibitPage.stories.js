@@ -4,7 +4,7 @@ import { getNavigationBarString } from './APLHeader';
 import { getAPLFooterString } from './APLFooter';
 
 export default {
-  title: 'Exhibits/ExhibitPage',
+  title: 'Exhibits/Pages',
 };
 const Template = ({ label, ...args }) => {
   return createExhibitPage({ label, ...args });
@@ -17,12 +17,6 @@ const myAPLFooter = getAPLFooterString();
 
 const myNavigationBar = getNavigationBarString();
 
-export const ExhibitPage = () => myNav + '<div class="column-2">' + myExhibitPage + '</div>';
-export const ExhibitPageWithHeader = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2">' + myExhibitPage + '</div></div>';
-export const ExhibitPageWithHeaderAndFooter = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2">' + myExhibitPage + '</div></div>' + myAPLFooter;
-/*
-export const TagPage = () => myNav + '<div class="column-2">' + myTag + '</div>';
-export const TagPageWithHeader = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2">' + myTag + '</div></div>';
-export const NodePageWithHeaderAndFooter = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2">' + myExhibit + '</div>' + myAPLFooter + '</div>';
-export const CalendarPage = () => myCalendar;
-*/
+export const CurrentExhibits = () => myNav + '<div class="column-2">' + myExhibitPage + '</div>';
+export const WithHeader = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2">' + myExhibitPage + '</div></div>';
+export const WithHeaderAndFooter = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2">' + myExhibitPage + '</div></div>' + myAPLFooter;

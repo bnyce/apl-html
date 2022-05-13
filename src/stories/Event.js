@@ -45,7 +45,5 @@ export const createEvent = ({
   const mode = internal ? 'storybook-email--internal' : 'storybook-email--secondary';
   evnt.className = ['storybook-email', `storybook-email--${internal}`, mode].join(' ');
 
-//  evnt.style.backgroundColor = backgroundColor;
-
   return evnt;
 };

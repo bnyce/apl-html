@@ -4,7 +4,7 @@ import { getNavigationBarString, getHeroString } from './APLHeader';
 import { getAPLFooterString } from './APLFooter';
 
 export default {
-  title: 'Events/EventPage',
+  title: 'Events/Pages',
 };
 const Template = ({ label, ...args }) => {
   return createEventPage({ label, ...args });
@@ -21,9 +21,9 @@ const myAPLFooter = getAPLFooterString();
 //const myHero = getHeroString();
 const myNavigationBar = getNavigationBarString();
 
-export const NodePage = () => myNav + '<div class="column-2">' + myNode + '</div>';
+export const Event = () => myNav + '<div class="column-2">' + myNode + '</div>';
 
-export const TagPage = () => myNav + '<div class="column-2">' + myTag + '</div>';
-export const TagPageWithHeader = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2">' + myTag + '</div></div>';
-export const NodePageWithHeaderAndFooter = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2">' + myNode + '</div>' + myAPLFooter + '</div>';
+export const EventCategory = () => myNav + '<div class="column-2">' + myTag + '</div>';
+export const WithHeader = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2">' + myTag + '</div></div>';
+export const WithHeaderAndFooter = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2">' + myNode + '</div>' + myAPLFooter + '</div>';
 export const CalendarPage = () => myCalendar;
