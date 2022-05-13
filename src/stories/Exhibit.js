@@ -1,36 +1,44 @@
 import './exhibits.css';
+import { createImage } from './Image';
 
 export const createExhibit = ({
   field_ex_main_image,
   title,
   body,
 }) => {
-  const exhbt = document.createElement('div');
-  exhbt.className = 'apl-exhibit';
-  exhbt.innerHTML = `${field_ex_main_image}`;
-  const exhbitcpy = document.createElement('div');
-  exhbitcpy.className = 'apl_copy';
+    const exhbt = document.createElement('div');
+    exhbt.className = 'apl-exhibit';
+    const exhbtcpy = document.createElement('div');
+    exhbtcpy.className = 'apl_copy';
 
-  const exhbtcpyInner = `${title} ${body}`;
-  exhbitcpy.innerHTML = exhbtcpyInner;
+    const exhbtimg = document.createElement('img');
+    exhbtimg.src = `${field_ex_main_image}`;
 
-  //exhbt.appendChild(exhbitcpy);
-  //exhbt.appendChild(`${field_ex_main_image`);
-  exhbt.appendChild(exhbitcpy);
+    exhbt.appendChild(exhbtimg);
 
-  //exhbt.addEventListener('click', onClick);
+    const myTitleWrapper = document.createElement('h1');
+    myTitleWrapper.className = 'exhibit-title';
+    
+       const myTitle = document.createElement('a');
 
-  //const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+   const myBody = document.createElement('div');
+    myBody.innerText = `${body}`;
 
-  //exhbt.style.backgroundColor = backgroundColor;
+    myTitle.innerText = `${title}`;
+    myTitleWrapper.appendChild(myTitle);
+   exhbtcpy.appendChild(myTitleWrapper);
+   exhbtcpy.appendChild(myBody);
 
-  return exhbt;
+    exhbt.appendChild(exhbtcpy);
+
+    return exhbt;
 };
 
-
+/*
 export function getExhibitString() {
     const ExhibitString = `${title}`;
     //const ExhibitString = `${field_ex_main_image}<div class="exhibit_copy">${title}${body}</div></div>`;
     return ExhibitString;
 }
 
+*/
