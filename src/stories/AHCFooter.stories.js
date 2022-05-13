@@ -1,5 +1,4 @@
 import { getAHCFooterString } from './AHCFooter';
-//import './ahc.css';
 
 export default {
   title: 'AHC/Footer',

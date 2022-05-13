@@ -1,4 +1,4 @@
-//import './aplButton.css';
+import './aplButton.css';
 
 export const createAPLButton = ({
   primary = false,
@@ -9,7 +9,7 @@ export const createAPLButton = ({
   aplbtn.innerText = label;
  // aplbtn.addEventListener('click', onClick);
 
-  const mode = primary ? 'usa-button' : 'usa-button usa-button-outline';
+  const mode = primary ? 'apl-button apl-button-primary' : 'apl-button';
   aplbtn.className = [`${audience}`, mode].join(' ');
 
 //  aplbtn.style.backgroundColor = backgroundColor;

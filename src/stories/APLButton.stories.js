@@ -10,7 +10,7 @@ export default {
     primary: { control: 'boolean' },
     audience: {
       control: { type: 'select' },
-      options: ['children', 'teen', 'adult'],
+      options: ['children', 'teen', 'adult', 'all'],
     },
   },
 };
@@ -36,4 +36,14 @@ export const Teen = Template.bind({});
 Teen.args = {
   label: 'Teen',
   audience: 'teen',
+};
+export const PrimaryAction = Template.bind({});
+PrimaryAction.args = {
+  label: 'Join Us!',
+  primary: true
+};
+export const SecondaryAction = Template.bind({});
+SecondaryAction.args = {
+  label: 'Events List',
+  audience: 'all'
 };

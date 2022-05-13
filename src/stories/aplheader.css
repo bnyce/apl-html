@@ -175,12 +175,14 @@ h3 {
 .d-col-3 > div {
 	padding: 1px 15px;
 }
-.d-col-9 {
+.d-col-9,
+.column-2 {
 	width: 580px !important;
   
 }
 .d-col-3,
-.d-col-9 {
+.d-col-9,
+.column-2 {
 	background: white;
 	box-shadow: 3px 3px 8px silver;
 	margin-bottom: 20px;

@@ -3,6 +3,9 @@
 	padding-bottom: 30px;
     clear: both;
 }
+#footer > div {
+	margin: 15px;
+}
 body #more-than-books h2.pane-title {
 	margin-left: 5px;
 	background-image: url("https://library.austintexas.gov/library/misc/more_than_books_tagline-01b.jpg") !important;
@@ -12,6 +15,14 @@ body #more-than-books h2.pane-title {
 	background-size: 220px;
 	background-repeat: no-repeat;
 	margin-top: 20px;
+}
+body #footer .ahc{
+    background: #56565a;border: none !important;
+}
+body .ahc #more-than-books h2.pane-title {
+	background-image: url("https://library.austintexas.gov/library/ahc/tagline2.svg") !important;
+	background-position: 5px 0;
+	width: 300px;
 }
 #connect-with-us span {
 	display: none;

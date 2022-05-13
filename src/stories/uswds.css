@@ -6871,23 +6871,6 @@ button.usa-combo-box__clear-input:focus{
     margin-top:1.5rem;
   }
 }
-.usa-form a{
-  color:#005ea2;
-  text-decoration:underline;
-}
-.usa-form a:visited{
-  color:#54278f;
-}
-.usa-form a:hover{
-  color:#1a4480;
-}
-.usa-form a:active{
-  color:#162e51;
-}
-.usa-form a:focus{
-  outline:0.25rem solid #2491ff;
-  outline-offset:0;
-}
 
 @media all and (min-width: 30em){
   .usa-form--large{

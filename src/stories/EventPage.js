@@ -1,7 +1,7 @@
 //import './html.css';
 //import { createEvent } from './Event';
 //import { Node }  from './Event.stories';
-/*
+
 export const createEventPage = ({ user, onLogout, onLogin, onCreateAccount }) => {
   const article = document.createElement('article');
 
@@ -13,4 +13,3 @@ export const createEventPage = ({ user, onLogout, onLogin, onCreateAccount }) =>
 
   return article;
 };
-*/

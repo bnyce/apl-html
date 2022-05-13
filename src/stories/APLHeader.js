@@ -1,4 +1,4 @@
-//import './aplheader.css';
+import './aplheader.css';
 export function getHeroString() {
     const Hero = '<img id="hero" src="https://library.austintexas.gov/library/2022-05/APL-ACB-2022-WEB_Banner-Desktop_mobile.jpg" alt="Austin Completely Booked" loading="lazy" typeof="foaf:Image" style="margin-top: -10px;">';
     return Hero;
