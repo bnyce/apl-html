@@ -14,6 +14,10 @@
 .apl-sidebar a {
     text-decoration: none;
 }
+.apl-sidebar.blog,
+.apl-sidebar.flat {
+    box-shadow: none;
+}
 .apl-sidebar a:hover,
 .apl-sidebar a.active {
     text-decoration: underline;
