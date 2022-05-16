@@ -1,4 +1,4 @@
-.apl-sidebar.blog {
+.apl-sidebar {
 	width: 330px;
 }
 .apl-sidebar,
@@ -21,4 +21,19 @@
 .apl-sidebar a:hover,
 .apl-sidebar a.active {
     text-decoration: underline;
+}
+
+.apl-sidebar ul {
+	padding: 0;
+}
+
+.apl-sidebar li {
+	list-style: none;
+}
+.apl-sidebar li a {
+	text-decoration: none;
+}
+.apl-sidebar li a:hover,
+.apl-sidebar li a.active {
+	text-decoration: underline;
 }

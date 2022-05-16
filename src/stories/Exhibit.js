@@ -37,6 +37,6 @@ export const createExhibit = ({
 };
 
 export function getExhibitNavString() {
-    const ExhibitNavString = '<div id="apl-exhibits-sidebar"><h2>APL Exhibits</h2><ul id="apl-exhibits-nav"><li><a href="/events">Current Events</a></li><li><a href="/events/calendar">Future</a></li><li><a href="/events/exhibits">Past</a></li></ul></div>';
+    const ExhibitNavString = '<div class="apl-sidebar exhibits" id="apl-exhibits-sidebar"><h2>APL Exhibits</h2><ul id="apl-exhibits-nav"><li><a class="active" href="/events">Current Events</a></li><li><a href="/events/calendar">Future</a></li><li><a href="/events/exhibits">Past</a></li></ul></div>';
     return ExhibitNavString;
 }

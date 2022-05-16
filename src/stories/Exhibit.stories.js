@@ -27,7 +27,7 @@ const Template = ({ title, ...args }) => {
 
 const myEx = getExhibitPageString();
 
-export const ExhibitsSidebar = () => myExhbitNav;
+export const Sidebar = () => myExhbitNav;
 
 export const BeenWild = Template.bind({});
 BeenWild.args = {
