@@ -3,7 +3,16 @@ import { createExhibit } from './Exhibit';
 export default {
   title: 'Exhibits/Exhibit',
   argTypes: { 
-      field_ex_main_image: { control: { type: 'file', accept: ['.png','.jpg'] } }}
+      field_ex_main_image: { control: { type: 'file', accept: ['.png','.jpg'] } },
+      time_start: {
+          control: 'text',
+          defaultValue: 'January 1, 2020'
+      },
+      time_end: {
+          control: 'text',
+          defaultValue: 'June 16, 2021'
+      }
+  }
 };
 
 const Template = ({ title, ...args }) => {

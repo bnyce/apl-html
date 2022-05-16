@@ -5,6 +5,8 @@ export const createExhibit = ({
   field_ex_main_image,
   title,
   body,
+  time_start,
+  time_end
 }) => {
     const exhbt = document.createElement('div');
     exhbt.className = 'apl-exhibit';
@@ -22,7 +24,7 @@ export const createExhibit = ({
        const myTitle = document.createElement('a');
 
    const myBody = document.createElement('div');
-    myBody.innerHTML = `${body}`;
+    myBody.innerHTML = `${body} <br/> ${time_start} - ${time_end}`;
 
     myTitle.innerText = `${title}`;
     myTitleWrapper.appendChild(myTitle);
