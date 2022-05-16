@@ -10,3 +10,12 @@
     margin: 0 auto;
     max-width: 930px;
 }
+.exhibit-copy {
+	width: 580px;
+	background: white;
+	padding: 15px;
+	margin-top: -6px;
+}
+.exhibit-title {
+    margin: 0 0 20px 0;
+}
