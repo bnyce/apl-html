@@ -5,7 +5,9 @@ export default {
   title: 'APL/APLButton',
   // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
   argTypes: {
-    label: { control: 'text' },
+    label: { 
+        description: 'button text',
+        control: 'text' },
  //   onClick: { action: 'onClick' },
     primary: { control: 'boolean' },
     audience: {

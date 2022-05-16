@@ -22,7 +22,7 @@ export const createExhibit = ({
        const myTitle = document.createElement('a');
 
    const myBody = document.createElement('div');
-    myBody.innerText = `${body}`;
+    myBody.innerHTML = `${body}`;
 
     myTitle.innerText = `${title}`;
     myTitleWrapper.appendChild(myTitle);
@@ -34,11 +34,3 @@ export const createExhibit = ({
     return exhbt;
 };
 
-/*
-export function getExhibitString() {
-    const ExhibitString = `${title}`;
-    //const ExhibitString = `${field_ex_main_image}<div class="exhibit_copy">${title}${body}</div></div>`;
-    return ExhibitString;
-}
-
-*/
