@@ -1,6 +1,6 @@
-import { createExhibit } from './Exhibit';
+import { createExhibit, getExhibitNavString } from './Exhibit';
 import { createExhibitPage, getExhibitPageString } from './ExhibitPage';
-
+import './exhibits-sidebar.css';
 export default {
   title: 'Exhibits/Exhibit',
   argTypes: { 
@@ -16,11 +16,19 @@ export default {
   }
 };
 
+
+const myExhbitNav = getExhibitNavString();
+
+
+
 const Template = ({ title, ...args }) => {
   return createExhibit({ title, ...args });
 };
 
 const myEx = getExhibitPageString();
+
+export const ExhibitsSidebar = () => myExhbitNav;
+
 export const BeenWild = Template.bind({});
 BeenWild.args = {
   title: 'It’s Been WILD',
@@ -35,11 +43,10 @@ DeeperEast.args = {
   field_ex_main_image: '/img/DeeperEast.png'
 };
 
-
-
 export const SacredSprings = Template.bind({});
 SacredSprings.args = {
   title: 'The Sacred Springs Kite Exhibition',
   body: '<p>An exhibition of dozens of kites created by artists and representing the connection between water and life in Texas,&nbsp;<strong>The Sacred Springs Kite Exhibition</strong>, will be on display at Austin Central Library starting May 6, 2022. The exhibition, set to hang over library visitors in the Central Library’s six-story atrium space, is a collaboration between Austin Public Library; Art4Water, a program of the Watershed Association; and Terry Zee Lee, a national facilitator and curator of kite exhibitions and events.<br><br>“Austin Central Library, located where Shoal Creek feeds into Lady Bird Lake and about a mile from Barton Springs, is the perfect location for the community to experience an exhibition on the connection between Texas waters and our lives,” stated Austin Public Library Director Roosevelt Weeks. “We are proud to be able to host these beautiful artworks in our space and connect the community with these artists’ important messages.”<br><br>The kites, which will be hung from the rafters of the LEED Platinum Certified Central Library, were selected from submissions from over 200 artists to be fabricated into large flying works of art inspired by Texas’s natural springs and the message of water conservation.<br><br>The exhibition will be visible throughout the Central Library, and is scheduled to be on display through November, 2022. A free opening reception is scheduled from 7:00pm – 9:00pm on May 6, 2022 at the Central Library, featuring presentations from the sponsors of the event and several of the featured artists, as well as tours of the exhibition.<br>&nbsp;</p><blockquote><p><strong>Sacred Springs Kite Exhibition Opening Reception</strong><br>May 6, 2022 7:00 pm - 9:00 pm<br>Austin Central Library, 6th&nbsp;Floor<br>710 W. Cesar Chavez St.<br>Austin, TX 78701<br>Free and open to the public</p></blockquote><p><br>“Clean and plentiful water serves as the lifeblood of our communities - our Texas Springs are vital gathering places for community connection and relief from the summer heat,” stated David Baker, Executive Director of the Watershed Association. “What would Austin be without Barton Springs at the heart and soul of our city?”<br><br>More information about the exhibition is available at:&nbsp;<a href="http://www.art4water.com/">www.art4water.com</a></p>',
   field_ex_main_image: '/img/SacredSprings.png'
 };
+
