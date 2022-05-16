@@ -11,10 +11,11 @@ const Template = ({ label, ...args }) => {
 };
 const myNav = getNavString();
 const myExhibitPage = getExhibitPageString();
+const stringLimit = 700;
 
-const myExhibit1 = '<img src="/img/exhibit.png"><h1 class="exhibit-title"><a>It’s Been WILD</a></h1>' + getExhibit1String();
-const myExhibit2 = '<img src="/img/DeeperEast.png"><h1 class="exhibit-title"><a>Deeper East</a></h1>' + getExhibit2String();
-const myExhibit3 = '<img src="/img/SacredSprings.png"><h1 class="exhibit-title"><a>The Sacred Springs Kite Exhibition</a></h1>' + getExhibit3String();
+const myExhibit1 = '<h1 class="exhibit-title"><a>It’s Been WILD</a></h1><div class="dates">September 04, 2021 – February 20, 2022</div><img src="/img/exhibit.png">' + getExhibit1String().substring(0, stringLimit) + '...';
+const myExhibit2 = '<h1 class="exhibit-title"><a>Deeper East</a></h1><div class="dates">September 04, 2021 – February 20, 2022</div><img src="/img/DeeperEast.png">' + getExhibit2String().substring(0, stringLimit) + '...';
+const myExhibit3 = '<h1 class="exhibit-title"><a>The Sacred Springs Kite Exhibition</a></h1><div class="dates">September 04, 2021 – February 20, 2022</div><img src="/img/SacredSprings.png">' + getExhibit3String().substring(0, stringLimit) + '...';
 
 const myAPLFooter = getAPLFooterString();
 
