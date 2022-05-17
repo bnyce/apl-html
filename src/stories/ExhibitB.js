@@ -28,16 +28,16 @@ export const createExhibitB = ({
     const myTitleWrapper = document.createElement('h1');
     myTitleWrapper.className = 'exhibit-title';
     
-    const myArtistWrapper = document.createElement('h2');
+    const myArtistWrapper = document.createElement('h3');
     myArtistWrapper.className = 'exhibit-artist';
     myArtistWrapper.innerText = `${artist}`;
 
     
-    const myTimeWrapper = document.createElement('h2');
+    const myTimeWrapper = document.createElement('h3');
     myTimeWrapper.className = 'exhibit-time';
     myTimeWrapper.innerText = `${time_start} - ${time_end}`;
     
-    const myLocationWrapper = document.createElement('h2');
+    const myLocationWrapper = document.createElement('h3');
     myLocationWrapper.className = 'exhibit-location';
     myLocationWrapper.innerHTML = `${location}`;
     
