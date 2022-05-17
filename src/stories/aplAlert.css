@@ -15,10 +15,14 @@
   float: left;
   width: 95%;
 }
-.alert-title {
-	width: 100%;
-	display: flex;
+.alert-headline {
+	padding: 10px;
 }
+.material-icons-round + .alert-headline {
+	padding-left: 44px;
+    padding-top: 3px;
+}
+
 .apl-alert .material-icons-round {
     padding: 0 10px;
     font-weight: normal;
