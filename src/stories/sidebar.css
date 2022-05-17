@@ -1,5 +1,5 @@
 .apl-sidebar {
-	width: 330px;
+	width: 360px;
     float: left;
 }
 
@@ -11,7 +11,7 @@
 	margin-bottom: 20px;
 	margin-right: 15px !important;
 	margin-top: 0;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 }
 .apl-sidebar a {
     text-decoration: none;
@@ -38,4 +38,17 @@
 .apl-sidebar li a:hover,
 .apl-sidebar li a.active {
 	text-decoration: underline;
+}
+
+.apl-sidebar .apl-event {
+    padding: 0;
+}
+.datetime, .apl-loc {
+	position: relative !important;
+	margin: -30px 0 10px 30px !important;
+	display: block;
+}
+.apl-sidebar .apl-event .field-title {
+	font-weight: normal;
+	margin-bottom: 10px !important;
 }
