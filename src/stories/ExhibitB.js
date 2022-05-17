@@ -1,4 +1,5 @@
 import './exhibits.css';
+import './exhibit.actions';
 import { createImage } from './Image';
 
 export const createExhibitB = ({
@@ -89,18 +90,23 @@ export const createExhibitB = ({
         
     const myMoreLink = document.createElement('a');
     myMoreLink.className = 'more'
-    myMoreLink.innerText = 'More...'
+    myMoreLink.innerText = 'more...'
     
    myMoreWrapper.appendChild(myMoreLink);
-   myMoreWrapper.appendChild(myAboutExhibitHeadline);
-   myMoreWrapper.appendChild(myAboutWrapper);
-   myMoreWrapper.appendChild(myAboutArtistHeadline);
-   myMoreWrapper.appendChild(myAboutArtistWrapper);
-   myMoreWrapper.appendChild(mySponsorsHeadline);
-   myMoreWrapper.appendChild(mySponsorsWrapper);
-   myMoreWrapper.appendChild(myImageCreditHeadline);
-   myMoreWrapper.appendChild(myImageCreditWrapper);
-        exhbtcpy.appendChild(myMoreWrapper);
+        const myMoreWrapper2 = document.createElement('div');
+    myMoreWrapper2.className = 'details';
+
+   myMoreWrapper2.appendChild(myAboutExhibitHeadline);
+   myMoreWrapper2.appendChild(myAboutWrapper);
+   myMoreWrapper2.appendChild(myAboutArtistHeadline);
+   myMoreWrapper2.appendChild(myAboutArtistWrapper);
+   myMoreWrapper2.appendChild(mySponsorsHeadline);
+   myMoreWrapper2.appendChild(mySponsorsWrapper);
+   myMoreWrapper2.appendChild(myImageCreditHeadline);
+   myMoreWrapper2.appendChild(myImageCreditWrapper);
+        
+    myMoreWrapper.appendChild(myMoreWrapper2);
+    exhbtcpy.appendChild(myMoreWrapper);
 
 
     exhbt.appendChild(exhbtcpy);

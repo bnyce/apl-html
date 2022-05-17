@@ -2,9 +2,7 @@
 	text-decoration: none;
 	color: black;
 }
-.exhibit_copy {
-	padding: 0 15px;
-}
+
 #footer > div,
 #apl-content {
     margin: 0 auto;
@@ -13,18 +11,28 @@
 .exhibit-copy {
 	width: 580px;
 	background: white;
-	padding: 15px;
+	padding: 5px 10px;
 	margin-top: -6px;
 }
 .exhibit-title {
     margin: 0 0 20px 0;
 }
 .apl-exhibit.card img {
-	width: 100px;
+	width: 250px;
 	display: inline-block;
 	float: left;
 	margin-right: 15px;
 }
 .individual a.more {
     display: none;
+}
+.details {
+    display: none;
+    text-align: left;
+}
+.details.active {
+    display: block !important;
+}
+.more {
+	text-align: right;
 }
