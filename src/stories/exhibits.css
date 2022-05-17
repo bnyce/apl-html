@@ -2,7 +2,14 @@
 	text-decoration: none;
 	color: black;
 }
-
+.column-2.cards {
+	background: none;
+	box-shadow: none;
+	padding-bottom: 0;
+}
+.apl-exhibit.card {
+	margin-bottom: 15px;
+}
 #footer > div,
 #apl-content {
     margin: 0 auto;
@@ -12,7 +19,6 @@
 	width: 580px;
 	background: white;
 	padding: 5px 10px;
-	margin-top: -6px;
 }
 .exhibit-title {
     margin: 0 0 20px 0;
@@ -30,6 +36,7 @@
     display: none;
     text-align: left;
 }
+.individual .details,
 .details.active {
     display: block !important;
 }
