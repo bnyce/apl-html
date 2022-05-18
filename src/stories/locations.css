@@ -1,0 +1,20 @@
+.views-field.views-field-field-location-main-image {
+    float: right;
+}
+
+.views-field.views-field-tid {
+	float: left;
+}
+.apl-location {
+	padding: 0 15px;
+}
+.apl-library-location .view-footer {
+	clear: left;
+	padding: 15px;
+}
+.apl-library-location .views-row {
+	margin-bottom: 15px;
+}
+.column-2 .locations h2 {
+	padding: 0 15px;
+}

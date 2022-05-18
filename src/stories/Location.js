@@ -1,4 +1,5 @@
 import './layout.css';
+import './locations.css';
 
 export const createLocation = ({
   field_ex_main_image,
