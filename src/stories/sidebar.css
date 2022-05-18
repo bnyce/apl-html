@@ -1,6 +1,5 @@
 .apl-sidebar {
-	width: 330px;
-    float: left;
+	width: 360px;
 }
 
 .apl-sidebar,
@@ -12,6 +11,11 @@
 	margin-right: 15px !important;
 	margin-top: 0;
 	padding-bottom: 10px;
+}
+.apl-sidebar.flat,
+#apl-events-sidebar.flat {
+	box-shadow: none;
+	margin-bottom: none;
 }
 .apl-sidebar a {
     text-decoration: none;

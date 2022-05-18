@@ -13,11 +13,7 @@
 .apl-exhibit.card {
 	margin-bottom: 15px;
 }
-#footer > div,
-#apl-content {
-    margin: 0 auto;
-    max-width: 930px;
-}
+
 .exhibit-copy {
 	width: 580px;
 	background: white;
