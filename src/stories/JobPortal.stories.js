@@ -14,6 +14,23 @@ export default {
   },
   
 };
+const SidebarHTML = `<div class="apl-sidebar"><h2>Job Portal</h2>
+<ul class="jobportal-menu">
+	<li><a href="#email">Get an Email Address</a></li>
+	<li><a href="#resume">Create Your Resumé</a></li>
+	<li><a href="#letter">Write Your Cover Letter</a></li>
+	<li><a href="#search">Search for Jobs</a></li>
+	<li><a href="#interview">Prepare for Interviews</a></li>
+	<li><a href="#coach">Get Job Coaching</a></li>
+	<li><a href="#explore-careers">Explore Careers</a></li>
+	<li><a href="#skills">Explore Skills &amp; Training</a></li>
+	<li><a href="#diverse">Explore Resources for Diverse Populations</a></li>
+	<li><a href="#rights">Know Your Rights &amp; Benefits</a></li>
+	<li><a href="#unemployment">Understanding Unemployment</a></li>
+	<li><a href="#crisis">Crisis Support</a></li>
+	<li><a class="usa-button" href="/jobportal/request">Request a Job Coach</a></li>
+</ul>
+</div>`;
 const RequestFormHTML = `<main class="usa-section2" id="main-content">
      <div class="grid-container">
      <div class="grid-row grid-gap">
@@ -443,5 +460,6 @@ const RequestFormHTML = `<main class="usa-section2" id="main-content">
   </div>
 </main>`;
 export const RequestForm = () => RequestFormHTML;
+export const JobPortalSidebar = () => SidebarHTML;
 
 
