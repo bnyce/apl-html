@@ -459,7 +459,550 @@ const RequestFormHTML = `<main class="usa-section2" id="main-content">
     </div>
   </div>
 </main>`;
+const JobPortalHTML = `<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+
+<p><a class="usa-button usa-button-outline" href="/portaldeempleo" id="apl-button-es" style="float: right; margin: 0 0 10px 10px;">español</a>This Job Portal was created during the COVID-19 Pandemic as a way for Library staff to offer help to the Austin community through a challenging and uncertain job market.</p>
+
+<div id="jobportal">
+<div id="email">
+<h2><img src="/library/misc/email.png"><span class="section-heading">Get an Email Address</span></h2>
+
+<div class="details">
+<p><iframe allow="autoplay; fullscreen" allowfullscreen="" frameborder="0" height="305" src="https://player.vimeo.com/video/415251919" width="540"></iframe></p>
+
+<p>Almost <strong>all </strong>job applications require an email address, so this should be the first step in your job search if you don't have one.</p>
+
+<p><strong>Step 1:&nbsp;Pick a free&nbsp;email provider</strong></p>
+
+<p>Select from one of these popular email providers, or the provider of your choice.&nbsp;</p>
+
+<ul>
+	<li><a href="https://www.google.com/gmail/about/">Gmail&nbsp;</a><a href="http://www.google.com/gmail/about/">from Google</a>&nbsp;(simple to use)</li>
+	<li><a href="https://outlook.live.com/owa/">Outlook Mail from Microsoft</a>&nbsp;(commonly used in office workplaces)</li>
+	<li><a href="https://protonmail.com/">Proton Mail</a>&nbsp;(very secure - no phone # required)</li>
+</ul>
+
+<p>New to email? We recommend this <a href="https://www.digitallearn.org/courses/intro-to-email">Intro to Email course from DigitalLearn.org </a>(14 minutes).</p>
+
+<p><strong>Step 2: Decide on an&nbsp;Email Address</strong></p>
+
+<p><em>Choose a professional-looking&nbsp;email address that includes your name or initials.&nbsp;</em></p>
+
+<p>Try different combinations of your name until you find one that works, but avoid including any personal information like your birth year. You may find that many&nbsp;other people have the same name as you, so&nbsp;get creative when selecting an email address.&nbsp;</p>
+
+<ul>
+	<li>JoeASmith@email.com</li>
+	<li>JoeSmith78705@email.com</li>
+	<li>JoeSmithAustin@email.com</li>
+</ul>
+
+<p><strong>Step 3: Secure Your Account</strong></p>
+
+<p><em>Make sure your account is secure and you don't get "locked out" if you forget your password, by adding a&nbsp;"recovery" email address or phone number to your account.&nbsp;</em></p>
+
+<p>This is a second email address&nbsp;or a phone number, that they can send a special code to if you ever forget your password. If you don't have a second email address, consider setting up another one now.</p>
+
+<p><strong>Step 4: Check Your New Email Account Regularly</strong></p>
+
+<p><em>You'll want to check your email often in case there's news about a job.</em></p>
+
+<p>If you have a cell phone, you can usually find an app for your phone from your email provider, or use the Email App that comes with your phone to link up the new email address you just created.&nbsp;</p>
+</div>
+</div>
+
+<div id="resume">
+<h2><img src="/library/misc/resume.png"><span class="section-heading">Create Your Resumé</span></h2>
+
+<div class="details">
+<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/VjdlraonW2s" width="540"></iframe><br>
+Capital Area Workforce Solutions has a more complete video on <a href="https://youtu.be/T17aNU0C1mQ">resumé building</a>.</p>
+
+<h3>What to Include in a Resumé</h3>
+
+<ul>
+	<li>Summary at the top of the resumé that includes your strengths and experience</li>
+	<li>Job history, including volunteer activities</li>
+	<li>Educational history and additional training</li>
+	<li>Organizations and memberships relevant to the job</li>
+	<li>Contact information (name, phone, email) at the top</li>
+</ul>
+
+<h3>Resumé Do's</h3>
+
+<ul>
+	<li><em>Use keywords from the job posting</em>&nbsp;and tailor your resumé to suit each application.</li>
+	<li><em>Use</em><strong> </strong><a href="https://careernetwork.msu.edu/resources-tools/resumes/action-verbs.html">action verbs</a>.</li>
+	<li><em>Be truthful.</em><strong> </strong> State your abilities accurately.</li>
+	<li><em>Keep it brief.</em><strong> </strong> Try to limit your resumé to one page, two pages at most.</li>
+	<li><em>Be accurate.</em> Proofread your resumé for any errors.&nbsp;</li>
+	<li><em>Keep it up-to-date and professional.</em><strong> </strong> Make changes as they occur, and stick to plain-looking fonts to keep your resumé timeless.</li>
+</ul>
+
+<h3>Resumé Don'ts</h3>
+
+<ul>
+	<li>Avoid saying "References Upon Request", but do include references if there is room.</li>
+	<li>Do not include Social Security #, birth date, marital status.</li>
+</ul>
+
+<h3>Creating Your Resumé</h3>
+
+<ul>
+	<li><a href="/database/brainfuse-jobnow">Brainfuse JobNow</a><br>
+	<b>Valid <a href="/mylibrarycard">Library card</a> and password required for remote access. </b><br>
+	Free customizable, career-specific resumé templates and resumé resources. Get help from a resumé expert from 2-11 PM Central, or submit your resumé any time through the Resumé Lab and receive detailed feedback in 24 hours.</li>
+	<li><a href="https://www.google.com/docs/about/">Google Docs Templates</a><br>
+	Offers free resumé templates that are automatically saved and always available online - no need to save to USB. <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&amp;flowEntry=SignUp">Requires a free Google account</a>.</li>
+	<li><a href="https://www.resume.com/">resume.com</a><br>
+	The free, user-friendly resumé builder allows you to print and download your resumé as a PDF or .doc file.</li>
+</ul>
+
+<p><strong>Want more resumé</strong><strong>&nbsp;help?</strong></p>
+
+<p><a href="/jobportal/request">Contact us</a> to request a job coach for 1 on 1 assistance.</p>
+</div>
+</div>
+
+<div id="letter">
+<h2><img src="/library/misc/cover-letter.png"><span class="section-heading">Write Your Cover Letter</span></h2>
+
+<div class="details">
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/N3jJY8GlXoM" width="560"></iframe></p>
+
+<p>Not every job posting requires a formal cover letter, but these tips can also be useful when writing an email to a potential employer.</p>
+
+<ul>
+	<li>Use <em>keywords from the job posting</em> in your letter, but don't repeat information included in your resumé.</li>
+	<li>Explain how your skills and personal qualities <em>match the employer's needs.</em></li>
+	<li>Focus on what you can do for the employer and <em> how you will contribute to the organization's goals. </em></li>
+</ul>
+
+<h3>Creating a Cover Letter</h3>
+
+<ul>
+	<li><a href="/database/brainfuse-jobnow">Brainfuse JobNow</a><br>
+	<b>Valid <a href="/mylibrarycard">Library card</a> and password required for remote access. </b><br>
+	Free customizable, career-specific cover letter templates. Get help from an expert from 2-11 PM Central, or submit your cover letter any time through the Resumé Lab to receive detailed feedback in 24 hours.</li>
+	<li><a href="https://www.google.com/docs/about/">Google Docs</a><br>
+	Easy to use cover letter templates you can create and access from any device with a Google account (required).<a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&amp;flowEntry=SignUp"> Create a free Google account.</a></li>
+	<li><a href="https://edu.gcfglobal.org/en/coverletters/crafting-your-cover-letter/1/">Crafting Your Cover Letter - GCFLearnFree</a><br>
+	Tips on writing and formatting the perfect cover letter.</li>
+</ul>
+
+<p><strong>Want more cover letter help?</strong></p>
+
+<p><a href="/jobportal/request">Contact us</a> to request a job coach for 1 on 1 assistance.</p>
+</div>
+</div>
+
+<div id="search">
+<h2><img src="/library/misc/job-search2.png"><span class="section-heading">Search for Jobs</span></h2>
+
+<div class="details">
+<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/afKwiLCUtEQ" width="540"></iframe></p>
+
+<h3>Local Job Search Help</h3>
+
+<ul>
+	<li><a href="http://www.wfscapitalarea.com/Job-Seekers/RapidResponseWorkersForm">Austin Rapid Response Workers Form</a><br>
+	Assistance&nbsp;with job placement and skills training for workers impacted by COVID.&nbsp;</li>
+	<li><a href="http://www.austintexas.gov/department/employment-assistance-centers">City of Austin Employee Assistance Centers</a><br>
+	Learn how to search and apply for City jobs with help from specialists.</li>
+	<li><a href="https://austin.dressforsuccess.org/about-dfsa/">Dress for Success Austin</a><br>
+	Job searching, interview prep and image consulting assistance for women.</li>
+	<li><a href="https://www.goodwillcentraltexas.org/education-job-training">Goodwill Education &amp; Job Training</a><br>
+	Job search assistance, training and interview coaching for eligible job seekers.</li>
+	<li><a href="http://www.wfscapitalarea.com/">Workforce Solutions Capital Area</a><br>
+	Find a job, explore careers and gain new, high-demand skills&nbsp;through appointments or virtual events.</li>
+</ul>
+
+<h3>Search Local Jobs</h3>
+
+<ul>
+	<li><a href="https://www.austincityjobs.org/postings/search">City of Austin Jobs</a></li>
+	<li><a href="https://www.traviscountytx.gov/human-resources/jobs">Travis County Jobs</a></li>
+	<li><a href="https://www.utexas.edu/jobs">University of Texas Jobs</a></li>
+	<li><a href="https://www.workintexas.com/vosnet/Default.aspx">Work in Texas</a></li>
+	<li><a href="http://www.wfscapitalarea.com/Job-Seekers/Jobs-Now">Workforce Solutions:&nbsp;Jobs Now</a></li>
+</ul>
+
+<h3>Search National Jobs</h3>
+
+<ul>
+	<li><a href="https://www.careerbuilder.com/">CareerBuilder</a></li>
+	<li><a href="https://www.indeed.com/">Indeed</a></li>
+	<li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+	<li><a href="https://www.usajobs.gov/">USAJOBS</a></li>
+</ul>
+</div>
+</div>
+
+<div id="interview">
+<h2><img src="/library/misc/interview.png"><span class="section-heading">Prepare for Interviews</span></h2>
+
+<div class="details">
+<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/HG68Ymazo18" width="540"></iframe></p>
+
+<p>Interview prep resources:</p>
+
+<ul>
+	<li><a href="/database/brainfuse-jobnow">Brainfuse JobNow</a><br>
+	<b>Valid <a href="/mylibrarycard">Library card</a> and password required for remote access.&nbsp; </b><br>
+	Brush up on interview techniques or get live online interview practice from trained job coaches.</li>
+	<li><a href="https://www.careeronestop.org/JobSearch/Interview/interview-tips.aspx">CareerOneStop</a><br>
+	Interview resources and tips including interview types, common questions and salary negotiation&nbsp;</li>
+	<li><a href="https://edu.gcfglobal.org/en/interviewingskills/">GCFLearnFree</a> - Interviewing Skills. Useful tips and strategies to prepare for, conduct and follow up after a professional job interview.</li>
+</ul>
+
+<p><b><strong>Want more interview help?</strong></b></p>
+
+<p><a href="/jobportal/request">Contact us</a> to request a job coach for 1 on 1 assistance.</p>
+</div>
+</div>
+
+<div id="coach">
+<h2><img src="/library/misc/job-coach.png"><span class="section-heading">Get Job Coaching</span></h2>
+
+<div class="details">
+<p><iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" height="304" src="https://player.vimeo.com/video/459488883?title=0&amp;byline=0&amp;portrait=0" width="540"></iframe></p>
+
+<p>Job Coaches are available by phone, email or video call. We can help you:</p>
+
+<ul>
+	<li>Set up an email address</li>
+	<li>Proofread and format resumés&nbsp;and cover letters</li>
+	<li>Use Library and web resources for your job search</li>
+	<li>Troubleshoot online applications</li>
+	<li>Navigate a career transition</li>
+	<li>Prepare for your interview</li>
+</ul>
+
+<p><b><a class="usa-button" href="/jobportal/request">Request a Job Coach</a></b></p>
+
+<ul>
+</ul>
+</div>
+</div>
+
+<div id="explore-careers">
+<h2><img src="/library/misc/explore-career.png"><span class="section-heading">Explore Careers</span></h2>
+
+<div class="details">
+<p><b><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/K2mP36DoekA" width="540"></iframe></b></p>
+
+<h3>Career Outlook and Guidance&nbsp;</h3>
+
+<ul>
+	<li><a href="https://www.careeronestop.org/ExploreCareers/explore-careers.aspx">CareerOneStop&nbsp;</a><br>
+	Offers self-assessment tools to find the best career for you&nbsp;</li>
+	<li><a href="https://www.myfuture.com/">MyFuture&nbsp;</a><br>
+	Explore different careers and pathways, including skilled trades &amp; military service&nbsp;</li>
+	<li><a href="https://www.bls.gov/ooh/">Occupational Outlook Handbook</a><br>
+	Learn about working conditions,&nbsp;training, earnings and job outlook for hundreds of different occupations.</li>
+	<li><a href="https://www.wfscapitalarea.com/resources/targeted-occupations-and-industries/">Targeted Occupations and Industries</a><br>
+	Explore growing career fields&nbsp;and&nbsp;opportunities&nbsp;for high-skill, high-wage jobs.</li>
+	<li><a href="https://wfscapitalarea.emsicc.com/?radius=&amp;region=Austin-Round%20Rock">Workforce Solutions Career Coach&nbsp;</a><br>
+	Discover majors and in-demand careers and education based on your interests.&nbsp;</li>
+</ul>
+
+<h3>Certificates and Licenses</h3>
+
+<ul>
+	<li><a href="https://www.austincc.edu/campaign/fast-track-careers">ACC Fast Track Careers</a><br>
+	Train for a new career quickly and affordably at Austin Community College.</li>
+	<li><a href="http://www.dshs.state.tx.us/food-handlers/training/online.aspx">Accredited Food Handler Training&nbsp;Programs</a></li>
+	<li><a href="https://www.goodwillcentraltexas.org/education-job-training/goodwill-career-technical-academy">Goodwill Career &amp; Technical Academy</a><br>
+	Provides accelerated training for professional career certifications in high-demand fields at little to no cost.</li>
+	<li><a href="/database/learningexpress-library">Learning Express Library</a><br>
+	<b>Valid <a href="https://library.austintexas.gov/mylibrarycard">Library card</a> and password required for remote access.&nbsp; </b><br>
+	Professional and certification practice tests and skill building for all ages.</li>
+	<li><a href="http://skillpointalliance.org/">Skillpoint Alliance</a><br>
+	Apply for free, fast training in the skilled trades and manufacturing.</li>
+	<li><a href="http://www.tabc.state.tx.us/training_and_certification/approved_seller_training_schools.asp">TABC Certification&nbsp;Schools</a></li>
+</ul>
+</div>
+</div>
+
+<div id="skills">
+<h2><img src="/library/misc/explore-skills.png"><span class="section-heading">Explore Skills &amp; Training </span></h2>
+
+<div class="details">
+<h3>Resource Introductions</h3>
+<b><!--Niche Academy Widget--><script async="" src="https://my.nicheacademy.com/api/widgets/austintexas"></script><!--Niche Academy Widget--> </b>
+
+<div id="027xhohzkc95"><b>&nbsp;</b></div>
+<b> </b>
+
+<h3>Skill &amp; Training Resources</h3>
+<b> </b>
+
+<ul>
+	<li><a href="/database/infobase-learning-cloud">Infobase Learning Cloud</a><br>
+	<b>Valid <a href="/mylibrarycard">Library card</a> and password required for remote access.&nbsp; </b><br>
+	Short online tutorials for over 150 software applications, job searching and career skills.</li>
+	<li><a href="/database/learningexpress-library">Learning Express Library</a><br>
+	<b>Valid <a href="/mylibrarycard">Library card</a> and password required for remote access.&nbsp; </b><br>
+	Nearly 1,000 online tutorials, practice tests and eBooks, as well as job search training and workplace skills improvement.</li>
+	<li><a href="https://connectatx.unitedwayaustin.org/v2/favorites/public/job-training-education">ConnectATX</a><br>
+	Job training and education opportunities across Austin.</li>
+	<li><a href="https://edu.gcfglobal.org/en/topics/computers/">GCFLearnFree&nbsp;</a><br>
+	A range of helpful computer tutorials covering a number of introductory topics.&nbsp;</li>
+	<li><a href="https://www.wfscapitalarea.com/events/">Workforce Solutions Events</a><br>
+	Local events calendar highlighting virtual training sessions on a variety of topics for job-seekers.</li>
+</ul>
+
+<p><strong>Want more help with training?&nbsp;</strong></p>
+
+<p><a href="/jobportal/request">Contact us</a>&nbsp;to request a job coach for 1 on 1 assistance.&nbsp;</p>
+<b> </b></div>
+</div>
+
+<div id="diverse">
+<h2><img src="/library/misc/diverse.png"><span class="section-heading">Explore Resources for Diverse Populations</span></h2>
+
+<div class="details">
+<h2><b>Teens</b></h2>
+
+<div class="details">
+<p><b><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/88Mwb2bnOMk" width="540"></iframe></b></p>
+
+<h3>How to land a job as a teen</h3>
+
+<ol>
+	<li>Brainstorm and research job options<span>&nbsp;</span>- don't limit yourself to "teen" jobs like fast food.</li>
+	<li><a href="https://www.careeronestop.org/GetMyFuture/Employment/get-work-experience.aspx">Gain experience (and a reference)</a><span>&nbsp;</span>- small jobs &amp; volunteering pay off, big time.&nbsp;</li>
+	<li><a href="http://www.careeronestop.org/JobSearch/Resumes/ResumeGuide/TopResumeStrategies/identify-transferable-skills.aspx">Be able to name your skills</a> - you've got marketable skills (we promise).</li>
+	<li><a href="https://edu.gcfglobal.org/en/jobsearchandnetworking/3-steps-to-identifying-transferable-skills/1/">Get your documents together to apply</a>&nbsp;-&nbsp;your application will be a breeze.</li>
+	<li s=""><a href="https://www.youthcentral.vic.gov.au/jobs-and-careers/job-interviews/preparing-for-a-job-interview/10-job-interview-tips">Know how to ace your interview</a><span>&nbsp;</span>- interviews are the final exam (not a pop quiz).</li>
+</ol>
+
+<h3>Teen Job Opportunities</h3>
+
+<p>Explore some of our favorite employment opportunities just for teens.&nbsp;</p>
+
+<ul>
+	<li><a href="https://www.apprenticeship.gov/">Apprenticeship.gov</a><br>
+	Want to gain a trade? Find apprenticeship opportunities in the&nbsp;Austin-area for skills like electrician, plumber&nbsp;and masonry.&nbsp;</li>
+	<li><a href="http://austintexas.gov/page/about-esb-macc-caminos">Caminos at the MACC</a><br>
+	The Caminos is a 1-year paid youth leadership program at the Mexican American Cultural Center.</li>
+	<li><a href="https://www.austintexas.gov/department/about-youth-family-servicesyouth-initiatives">City of Austin Summer Interns&nbsp;</a><br>
+	One application for 4 different internships, and you're matched based on your future career interests. Application deadline is usually first week in March.&nbsp;</li>
+	<li><a href="https://www.austintexas.gov/page/youth-employment-and-program-opportunities">City of Austin Youth Employment &amp; Volunteer Opportunities</a><br>
+	See all youth volunteer and employment programs citywide at a glance - some are volunteer, but those at Austin Public Health and the Parks &amp; Rec Department are paying jobs.</li>
+	<li><a href="https://e4youth.org/programs-2/">e4 Youth</a><br>
+	The e4 Youth Organization has several different paid jobs for Teens, including their Creative Mentor and Shadow the Pros programs.</li>
+	<li><a href="https://www.goodwillcentraltexas.org/education-job-training/opportunities-for-youth">Goodwill&nbsp;</a><br>
+	Eligible applicants can receive one-on-one assistance from a case manager to reach&nbsp;educational&nbsp;and career goals.&nbsp;</li>
+	<li><a href="https://www.traviscountytx.gov/health-human-services/children-and-youth/employment-program">Travis County Summer Youth Employment Program&nbsp;</a><br>
+	Eligible applicants&nbsp;can apply to this paid work-based learning opportunity.&nbsp;</li>
+</ul>
+
+<p><strong>Need more help?&nbsp;</strong></p>
+
+<p><a href="/jobportal/request">Contact us</a>&nbsp;to request a job coach for 1 on 1 assistance.&nbsp;</p>
+</div>
+
+<h2><b>Older Adults</b></h2>
+
+<div class="details">
+<p><b><iframe allowfullscreen="" frameborder="0" height="305" scrolling="no" src="https://players.brightcove.net/3772599298001/ryhhcDoG_default/index.html?videoId=5755619203001" width="540"></iframe></b></p>
+
+<h3>Resources for Older Adults</h3>
+
+<ul>
+	<li><a href="https://www.aarp.org/work/job-search/info-2020/part-time-jobs-for-retirees.html">AARP: Top 25 Part-Time Jobs for Older Adults</a><br>
+	Information on pay, job satisfaction and the average amount of time spent sitting and standing on the job.</li>
+	<li><a href="https://learn.aarp.org/work-jobs-landing-page">AARP Work &amp; Jobs</a><br>
+	Job search tips and resources for older adults.</li>
+	<li><a href="https://www.austinup.org/events/">AustinUp Events Calendar</a><br>
+	<span style="color: #333333;">Local advocacy group hosting a variety of events for job seekers throughout the year, including 50+ job fairs</span>.</li>
+	<li><a href="https://www.careeronestop.org/ResourcesFor/OlderWorker/older-worker.aspx">CareerOneStop Resources for Older Workers</a><br>
+	Tips on navigating stereotypes, job searching, interviewing and more.</li>
+	<li><a href="http://www.ssa.gov/planners/retire/whileworking.html">Social Security&nbsp;Benefits Planner</a><br>
+	How to work while collecting Social Security payments.</li>
+</ul>
+
+<p><strong>Need more help?&nbsp;</strong></p>
+
+<p><a href="/jobportal/request">Contact us</a>&nbsp;to request a job coach for 1 on 1 assistance.&nbsp;</p>
+</div>
+
+<div id="abilities">
+<h2><b>People of All Abilities</b></h2>
+
+<div class="details">
+<p><b><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/f8lh47Kuv_s" width="540"></iframe></b></p>
+
+<h3>Resources for Workers of All Abilities</h3>
+
+<ul>
+	<li><a href="https://abilityjobs.com/job-seeker-services/">abilityJOBS</a><br>
+	Job&nbsp;openings&nbsp;posted by employers seeking to hire employees with disabilities.</li>
+	<li><a href="https://www.careeronestop.org/ResourcesFor/WorkersWithDisabilities/workers-with-disabilities.aspx">CareerOneStop: Navigating the Job Search for All Abilities</a><br>
+	Find resources and information to support your successful employment.&nbsp;</li>
+	<li><a href="https://askjan.org/index.cfm">Job Accommodation Network</a><br>
+	Free, expert and confidential guidance on workplace accommodations and disability employment issues.</li>
+	<li><a href="https://www.twc.texas.gov/jobseekers/vocational-rehabilitation-services" rel="noreferrer noopener" target="_blank">Texas Workforce Commission Vocational Rehabilitation Services</a>&nbsp;<br>
+	Work with&nbsp;counselors&nbsp;to&nbsp;set and achieve your career objectives.&nbsp;</li>
+	<li><a href="https://www.wfscapitalarea.com/our-services/job-search-training/#disabilities" rel="noreferrer noopener" target="_blank">Workforce Solutions Career Centers</a>&nbsp;<br>
+	Accessibility equipment available including JAWS,&nbsp;Zoomtext, CCTV and more.</li>
+</ul>
+
+<p><strong>Need more help?&nbsp;</strong></p>
+
+<p><a href="/jobportal/request">Contact us</a>&nbsp;to request a job coach for 1 on 1 assistance.&nbsp;</p>
+</div>
+</div>
+
+<h2><b>Military &amp; Veterans</b></h2>
+
+<div class="details">
+<p><b><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/OpCI1T-PjKg" width="540"></iframe></b></p>
+
+<h3>Veteran Services</h3>
+
+<ul>
+	<li><a href="https://www.careeronestop.org/Veterans/JobSearch/FindOpenings/find-openings.aspx" rel="noreferrer noopener" target="_blank">CareerOneStop</a>&nbsp;<br>
+	Find civilian careers based on your military experience.</li>
+	<li><a href="https://veterans.usnlx.com/" rel="noreferrer noopener" target="_blank">National Labor Exchange</a>&nbsp;<br>
+	Search jobs from veteran-friendly employers.&nbsp;</li>
+	<li><a href="https://www.tvc.texas.gov/employment/veterans/">Texas Veterans Commission</a><br>
+	Access&nbsp;one-on-one job assistance in addition to other&nbsp;veteran services.</li>
+	<li><a href="https://www.texvet.org/employment-and-business">TexVet</a><br>
+	Search veteran-focused employment and business resources in Texas.&nbsp;</li>
+	<li><a href="https://www.benefits.va.gov/vocrehab/index.asp" rel="noreferrer noopener" target="_blank">Veteran Readiness &amp; Employment</a><br>
+	The Veterans Benefits Administration provides job training, resumé development and employment accommodations.</li>
+</ul>
+
+<p><strong>Need more help?&nbsp;</strong></p>
+
+<p><a href="/jobportal/request">Contact us</a>&nbsp;to request a job coach for 1 on 1 assistance.&nbsp;</p>
+</div>
+
+<h2><b>Formerly Incarcerated People</b></h2>
+
+<div class="details">
+<p><b><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/NgmqTsBi92A" width="540"></iframe></b></p>
+
+<h3>Reentry Resources</h3>
+
+<ul>
+	<li><a href="https://www.70millionjobs.com/" rel="noreferrer noopener" target="_blank">70 Million Jobs</a>&nbsp;<br>
+	Create a free account and access second chance job&nbsp;opportunities.&nbsp;&nbsp;</li>
+	<li><a href="https://www.careeronestop.org/ExOffender/default.aspx" rel="noreferrer noopener" target="_blank">CareerOneStop&nbsp;Job Search&nbsp;Help</a>&nbsp;<br>
+	Find&nbsp;&nbsp;state resources, find employers and&nbsp;tips on how to talk about your past.</li>
+	<li><a href="https://www.consumer.ftc.gov/articles/0157-background-checks">Federal Trade Commission</a><br>
+	Everything you need to know about background checks.</li>
+	<li><a href="https://www.reentryroundtable.org/get-help/">Reentry Roundtable</a><br>
+	Resources and network building for individuals reentering the community.</li>
+	<li><a href="https://www.texascjc.org/county-resources?field_resources_list_value%5B%5D=D&amp;field_county_value=227">Texas Criminal Justice Coalition</a><br>
+	Find employment services in Travis County.</li>
+	<li><a href="https://lawlibrary.traviscountytx.gov/services/reference-attorney-for-expunctions">Travis County Law Library</a><br>
+	Get help clearing your arrest record from a no-cost attorney.</li>
+</ul>
+</div>
+</div>
+
+<div id="rights">
+<h2><img src="/library/misc/rights.png"><span class="section-heading">Know Your Rights &amp; Benefits</span></h2>
+
+<div class="details">
+<p><b><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/DBTmNm8D-84" width="540"></iframe></b></p>
+
+<h3>Healthcare.gov Resources</h3>
+
+<ul>
+	<li><a href="https://www.healthcare.gov/apply-and-enroll/get-help-applying/" rel="noreferrer noopener" target="_blank">Help Applying</a>&nbsp;<br>
+	Get assistance on your application and enroll now.</li>
+	<li><a href="https://www.healthcare.gov/have-job-based-coverage/if-you-lose-job-based-coverage/" rel="noreferrer noopener" target="_blank">Lost Your Job?</a>&nbsp;&nbsp;<br>
+	Learn about your options to get healthcare coverage.</li>
+	<li><a href="https://www.healthcare.gov/choose-a-plan/comparing-plans/" rel="noreferrer noopener" target="_blank">Picking a Plan&nbsp;</a><br>
+	Helpful tips and tutorials to help select the healthcare plan that is right for you.</li>
+</ul>
+
+<h3>Retirement Planning&nbsp;</h3>
+
+<ul>
+	<li><a href="https://www.aarp.org/money/money_tools/" rel="noreferrer noopener" target="_blank">AARP&nbsp;Money Tools</a>&nbsp;<br>
+	Several useful calculators for planning your&nbsp;retirement.</li>
+	<li><a href="https://www.ssa.gov/planners/retire/">Retirement Planner</a><br>
+	Learn how to apply for and manage your Social Security benefits.</li>
+</ul>
+
+<h3>Employment Rights &amp; Laws</h3>
+
+<ul>
+	<li><a href="https://guides.sll.texas.gov/covid-19/employment#s-lg-box-wrapper-27296374" rel="noreferrer noopener" target="_blank">COVID-19 &amp; Texas Law</a>&nbsp;<br>
+	Access helpful pandemic-related resources from the Texas State Law Library.</li>
+	<li><a href="https://www.osha.gov/workers/" rel="noreferrer noopener" target="_blank">OSHA Worker Rights &amp; Protections</a><br>
+	Learn about your right to safety in the workplace.</li>
+	<li><a href="https://www.twc.texas.gov/jobseekers/employee-rights-laws">Texas Workforce Commission</a><br>
+	File a discrimination complaint, claim unpaid wages and learn more about your rights.</li>
+</ul>
+</div>
+</div>
+
+<div id="unemployment">
+<h2><img src="/library/misc/unemployment.png"><span class="section-heading">Understanding Unemployment</span></h2>
+
+<div class="details">
+<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/SXdE0x_O-rE" width="540"></iframe></p>
+
+<p><strong><a href="https://www.twc.state.tx.us/jobseekers/unemployment-benefits-services" rel="noreferrer noopener" target="_blank">Texas Workforce Commission’s Unemployment Benefits Services</a>&nbsp;</strong></p>
+
+<p>You Will Need:</p>
+
+<ul>
+	<li><a href="https://apps.twc.state.tx.us/UBS/security/selfRegister.do" rel="noreferrer noopener" target="_blank">A Texas Workforce Commission Account</a></li>
+	<li>Last employer's business name and address</li>
+	<li>First and last dates (month, day and year) you worked for your last employer</li>
+	<li>Number of hours worked and pay rate if you worked this week (including Sunday)</li>
+	<li>Information related to your normal wage</li>
+	<li>Alien Registration Number (if not a U.S. citizen or national)</li>
+</ul>
+
+<p>Need Help?</p>
+
+<ul>
+	<li>See a <a href="https://www.twc.texas.gov/files/jobseekers/tutorial-apply-for-benefits-online-twc.pdf"> tutorial on how to apply for benefits online </a> .</li>
+	<li><a href="/database/brainfuse-jobnow">Brainfuse JobNow</a><br>
+	<b>Valid <a href="/mylibrarycard">Library card</a> and password required for remote access. </b><br>
+	Connect with an expert for unemployment benefits assistance Monday - Thursday from 3 - 9 PM Central.</li>
+	<li><a href="/jobportal/request" target="_blank">Contact us</a>&nbsp;to request a job coach for 1 on 1 assistance.&nbsp;</li>
+</ul>
+</div>
+</div>
+
+<div id="crisis">
+<h2><img src="/library/misc/crisis-support.png"><span class="section-heading">Crisis Support</span></h2>
+
+<div class="details">
+<p><iframe allow="autoplay; fullscreen" allowfullscreen="" frameborder="0" height="305" src="https://player.vimeo.com/video/420788229" width="540"></iframe></p>
+
+<p><b>Local Help</b></p>
+
+<ul>
+	<li><a href="https://library.austintexas.libguides.com/c.php?g=1012306&amp;p=7332472">APL COVID-19 Guide</a><br>
+	Find&nbsp;pandemic and&nbsp;financial assistance&nbsp;information.</li>
+	<li><a href="https://library.austintexas.libguides.com/socialservices/generalaid">APL Social Services Guide</a><br>
+	Find local resources for&nbsp;shelter, food, health needs and more.</li>
+	<li><a href="http://austintexas.gov/page/basic-needs-support" rel="noreferrer noopener" target="_blank">City of Austin Basic Needs Support</a><br>
+	Get help with food, housing and relief funding.</li>
+	<li><a href="https://www.austintexas.gov/housing-resources" rel="noreferrer noopener" target="_blank">City of Austin Housing Assistance Resources</a>&nbsp;&nbsp;<br>
+	Help for renters, homeowners, and individuals experiencing homelessness.</li>
+	<li><a href="https://www.traviscountytx.gov/health-human-services/divisions/family-support-services">Travis County Family Support Services</a><br>
+	Rent, mortgage &amp; utilities assistance to eligible individuals.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<p><b><iframe frameborder="0" height="315" scrolling="no" src="//austin.bibliocommons.com/list/list_browse/user/1622364239" width="550"></iframe></b></p>
+</div>`;
+
 export const RequestForm = () => RequestFormHTML;
 export const JobPortalSidebar = () => SidebarHTML;
+export const JobPortalPage = () => JobPortalHTML;
 
 
