@@ -1,5 +1,6 @@
 .apl-sidebar {
-	width: 360px;
+	width: 330px;
+    float: left;
 }
 
 .apl-sidebar,
