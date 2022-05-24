@@ -171,4 +171,4 @@ const myAPLFooter = getAPLFooterString();
 
 const myNavigationBar = getNavigationBarString();
 
-export const WithHeaderAndFooterB = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2 cards">' + myExhibit1 + '</div></div>' + myAPLFooter;
+export const WithHeaderAndFooterB = () => myNavigationBar + '<div id="apl-content">' + myNav + '<div class="column-2 apl-cards">' + myExhibit1 + '</div></div>' + myAPLFooter;
