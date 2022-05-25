@@ -45,6 +45,69 @@ const SidebarHTML = `<div class="apl-sidebar flat views-element-container block 
 </div>
 
   </div>`;
+const FacetsHTML = `<div class="vefl-1col apl-sidebar flat">
+  <div class="views-element-container block block-views block-views-blocksections-block-9">
+  
+    
+      <div><div class="view view-sections view-id-sections view-display-id-block_9 js-view-dom-id-e96add16e6cdbfa7d842c7b144d3360ef4f22a3416a031763839f0626ef186e8">
+  
+    
+      
+      <div class="view-content">
+          <div><div class="views-field views-field-body"><div class="field-content"><h2>What would you like?</h2>
+
+<p>Select one or more of the following</p></div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+<div class="facet-inactive block-facet--links block block-facets block-facet-blockintended-audience">
+  
+    
+      <div class="facets-widget-links">
+      <ul data-drupal-facet-id="intended_audience" data-drupal-facet-alias="aud" class="facet-inactive js-facets-links item-list__links js-facets-widget"><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=aud%3AAdult&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="aud-adult" data-drupal-facet-item-value="Adult" data-drupal-facet-item-count="661"><span class="facet-item__value">Adult</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=aud%3AChildren&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="aud-children" data-drupal-facet-item-value="Children" data-drupal-facet-item-count="6"><span class="facet-item__value">Children</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=aud%3AEspa%C3%B1ol&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="aud-español" data-drupal-facet-item-value="Español" data-drupal-facet-item-count="1"><span class="facet-item__value">Español</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=aud%3ATeen&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="aud-teen" data-drupal-facet-item-value="Teen" data-drupal-facet-item-count="6"><span class="facet-item__value">Teen</span>
+</a></li></ul>
+</div>
+
+  </div>
+<div class="facet-active block-facet--links block block-facets block-facet-blockfacets23">
+  
+    
+      <div class="facets-widget-links">
+      <ul data-drupal-facet-id="facets23" data-drupal-facet-alias="facet" class="facet-active js-facets-links item-list__links js-facets-widget"><li class="facet-item"><a href="/recommended/titles" rel="nofollow" class="is-active" data-drupal-facet-item-id="facet-nonfiction" data-drupal-facet-item-value="Nonfiction" data-drupal-facet-item-count="673">  <span class="facet-item__status js-facet-deactivate">(-)</span>
+<span class="facet-item__value">Nonfiction</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3AMemoir&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-memoir" data-drupal-facet-item-value="Memoir" data-drupal-facet-item-count="63"><span class="facet-item__value">Memoir</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3ABest%20of&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-best-of" data-drupal-facet-item-value="Best of" data-drupal-facet-item-count="62"><span class="facet-item__value">Best of</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3ANonfiction&amp;f%5B1%5D=facet%3ATrending%20Topics" rel="nofollow" data-drupal-facet-item-id="facet-trending-topics" data-drupal-facet-item-value="Trending Topics" data-drupal-facet-item-count="43"><span class="facet-item__value">Trending Topics</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3ABiography&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-biography" data-drupal-facet-item-value="Biography" data-drupal-facet-item-count="42"><span class="facet-item__value">Biography</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3ALGBTQIA%2B&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-lgbtqia" data-drupal-facet-item-value="LGBTQIA+" data-drupal-facet-item-count="42"><span class="facet-item__value">LGBTQIA+</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3ANonfiction&amp;f%5B1%5D=facet%3AScience" rel="nofollow" data-drupal-facet-item-id="facet-science" data-drupal-facet-item-value="Science" data-drupal-facet-item-count="42"><span class="facet-item__value">Science</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3ANonfiction&amp;f%5B1%5D=facet%3AThrilling" rel="nofollow" data-drupal-facet-item-id="facet-thrilling" data-drupal-facet-item-value="Thrilling" data-drupal-facet-item-count="42"><span class="facet-item__value">Thrilling</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3AAfrican%20American&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-african-american" data-drupal-facet-item-value="African American" data-drupal-facet-item-count="40"><span class="facet-item__value">African American</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3AHispanic%20and%20Latino&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-hispanic-and-latino" data-drupal-facet-item-value="Hispanic and Latino" data-drupal-facet-item-count="40"><span class="facet-item__value">Hispanic and Latino</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3AMicrohistory&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-microhistory" data-drupal-facet-item-value="Microhistory" data-drupal-facet-item-count="39"><span class="facet-item__value">Microhistory</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3ANonfiction&amp;f%5B1%5D=facet%3ATrue%20Crime" rel="nofollow" data-drupal-facet-item-id="facet-true-crime" data-drupal-facet-item-value="True Crime" data-drupal-facet-item-count="39"><span class="facet-item__value">True Crime</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3AHistorical&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-historical" data-drupal-facet-item-value="Historical" data-drupal-facet-item-count="38"><span class="facet-item__value">Historical</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3ABest%20of%202020&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-best-of-2020" data-drupal-facet-item-value="Best of 2020" data-drupal-facet-item-count="36"><span class="facet-item__value">Best of 2020</span>
+</a></li><li class="facet-item"><a href="/recommended/titles?f%5B0%5D=facet%3AArt&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-art" data-drupal-facet-item-value="Art" data-drupal-facet-item-count="35"><span class="facet-item__value">Art</span>
+</a></li><li class="facet-item" style="display: none;"><a href="/recommended/titles?f%5B0%5D=facet%3AFunny&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-funny" data-drupal-facet-item-value="Funny" data-drupal-facet-item-count="35"><span class="facet-item__value">Funny</span>
+</a></li><li class="facet-item" style="display: none;"><a href="/recommended/titles?f%5B0%5D=facet%3ANonfiction&amp;f%5B1%5D=facet%3AThe%20Green%20Life" rel="nofollow" data-drupal-facet-item-id="facet-the-green-life" data-drupal-facet-item-value="The Green Life" data-drupal-facet-item-count="34"><span class="facet-item__value">The Green Life</span>
+</a></li><li class="facet-item" style="display: none;"><a href="/recommended/titles?f%5B0%5D=facet%3ADiverse&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-diverse" data-drupal-facet-item-value="Diverse" data-drupal-facet-item-count="33"><span class="facet-item__value">Diverse</span>
+</a></li><li class="facet-item" style="display: none;"><a href="/recommended/titles?f%5B0%5D=facet%3ABest%20of%202021&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-best-of-2021" data-drupal-facet-item-value="Best of 2021" data-drupal-facet-item-count="26"><span class="facet-item__value">Best of 2021</span>
+</a></li><li class="facet-item" style="display: none;"><a href="/recommended/titles?f%5B0%5D=facet%3ANonfiction&amp;f%5B1%5D=facet%3ASpeed%20Reads" rel="nofollow" data-drupal-facet-item-id="facet-speed-reads" data-drupal-facet-item-value="Speed Reads" data-drupal-facet-item-count="16"><span class="facet-item__value">Speed Reads</span>
+</a></li><li class="facet-item" style="display: none;"><a href="/recommended/titles?f%5B0%5D=facet%3AAround%20the%20World&amp;f%5B1%5D=facet%3ANonfiction" rel="nofollow" data-drupal-facet-item-id="facet-around-the-world" data-drupal-facet-item-value="Around the World" data-drupal-facet-item-count="8"><span class="facet-item__value">Around the World</span>
+</a></li></ul><a href="#" class="facets-soft-limit-link" aria-expanded="false">Show more</a>
+</div>
+
+  </div>
+
+</div>`;
 const WeRecommendHTML = `<div class="vefl-1col">
   <div class="block block-layout-builder block-field-blocknodepagefield-main-image">
   
@@ -312,5 +375,6 @@ const FacetRecommendationsHTML = `<div class="apl-carousel-2022 view view-apl-it
     </div>`;
 
 export const Sidebar = () => SidebarHTML;
+export const Facets = () => FacetsHTML;
 export const FacetRecommendations = () => '<div class="column-2">' + FacetRecommendationsHTML + '</div>';
 export const WeRecommend = () => '<div class="column-2">' + WeRecommendHTML + '</div>';
