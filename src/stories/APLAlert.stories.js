@@ -1,4 +1,5 @@
 import { createAPLAlert } from './APLAlert';
+import { createAPLHeader, getNavigationBarString, getHeroString } from './APLHeader';
 
 // More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
 export default {
@@ -16,7 +17,7 @@ export default {
     zone: { control: 'text'}
   }
 };
-
+const easyAlert = `<div class="apl-alert"><div class="home apl-alert-row"><span class="material-icons-round">warning</span><div class="alert-headline">Our website is currently undergoing updates and some information may be temporarily unavailable or inaccurate. Please contact us by phone or email if you have any questions. We apologize for the inconvenience.</div></div></div>`;
 // More on component templates: https://storybook.js.org/docs/html/writing-stories/introduction#using-args
 const Template = ({ ...args }) => {
   // You can either use a function to create DOM elements or use a plain html string!
@@ -40,3 +41,7 @@ Alert.args = {
   time_end: '03/27/2022',
   zone: 'home',
 };
+const myNavigationBar = getNavigationBarString();
+
+export const APLHeader = () => myNavigationBar;
+export const WithHeader = () => myNavigationBar + easyAlert;

@@ -1,7 +1,9 @@
 .home.apl-alert-row {
 	padding: 10px;
 }
-
+#apl-adv-search2 {
+	font-size: 13px;
+}
 .node--type-alert {
 	display: flex;
 	max-width: 1420px;
