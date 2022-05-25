@@ -1,5 +1,7 @@
 import './job-portal.css';
+import './slideshow.css';
 import './jobportal.actions';
+//import './slideshow.actions';
 
 export default {
   title: 'Job Portal/Pages',
@@ -15,6 +17,55 @@ export default {
   },
   
 };
+const SlideShowHTML = `<div class="views-element-container block block-views block-views-blockhighlighted-block-3">
+  
+    
+      <div><div class="view view-highlighted view-id-highlighted view-display-id-block_3 js-view-dom-id-520041369630f5f7da34647f1411f7dc9334db3bc991a5540c1bf94da3a9606a" data-once="ajax-pager">
+  
+    
+      
+      <div class="view-content">
+        <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_highlighted-block_3" class="views_slideshow_cycle_main views_slideshow_main viewsSlideshowCycle-processed">
+    <div id="views_slideshow_cycle_teaser_section_highlighted-block_3" class="views_slideshow_cycle_teaser_section" style="position: relative; width: 580px; height: 405px;">
+     <div id="views_slideshow_cycle_div_highlighted-block_3_0" class="views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd" style="position: absolute; top: 0px; left: 0px; z-index: 2; opacity: 1;">
+      <div class="views-row views-row-0 views-row-odd views-row-first">
+  <div class="views-field views-field-field-highlighted-image"><div class="field-content"><a href="/portaldeempleo">  <img src="https://library.austintexas.gov/library/apl_esp-portaldeempleo_job_portal-esp%5B1%5D.jpg" width="580" height="355" alt="" loading="lazy" typeof="foaf:Image">
+
+</a></div></div><div><span><a href="/portaldeempleo">Portal de Empleo</a></span></div>
+</div>
+
+  </div>
+
+     <div id="views_slideshow_cycle_div_highlighted-block_3_1" class="views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1; opacity: 0;">
+      <div class="views-row views-row-1 views-row-even views-row-last">
+  <div class="views-field views-field-field-highlighted-image"><div class="field-content"><a href="/jobportal">  <img src="https://library.austintexas.gov/library/apl-jobportal580_job_portal_1.jpg" width="580" height="355" alt="" loading="lazy" typeof="foaf:Image">
+
+</a></div></div><div><span><a href="/jobportal">Virtual Job Assistance</a></span></div>
+</div>
+
+  </div>
+
+  </div>
+
+</div>
+
+
+          <div class="views-slideshow-controls-bottom clearfix">
+        
+<div class="item-list"><ul class="widget_pager widget_pager_bottom views-slideshow-pager-bullets views_slideshow_pager_field views-slideshow-pager-field-processed" id="widget_pager_bottom_highlighted-block_3"><li id="views_slideshow_pager_field_item_bottom_highlighted-block_3_0" class="active">0</li><li id="views_slideshow_pager_field_item_bottom_highlighted-block_3_1">1</li></ul></div>
+
+
+      </div>
+        </div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>`;
 const SidebarHTML = `<div class="apl-sidebar"><h2>Job Portal</h2>
 <ul class="jobportal-menu">
 	<li><a href="#email">Get an Email Address</a></li>
@@ -1002,6 +1053,7 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 <p><b><iframe frameborder="0" height="315" scrolling="no" src="//austin.bibliocommons.com/list/list_browse/user/1622364239" width="550"></iframe></b></p>
 </div>`;
 
+export const SlideShow = () => '<div class="column-2">' + SlideShowHTML + '</div>';
 export const RequestForm = () => RequestFormHTML;
 export const JobPortalSidebar = () => SidebarHTML;
 export const JobPortalPage = () => '<div class="column-2">' + JobPortalHTML + '</div>';
