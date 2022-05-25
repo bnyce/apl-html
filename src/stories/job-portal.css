@@ -1,3 +1,6 @@
+.section-heading {
+	padding-left: 45px;
+}
 body fieldset legend .fieldset-legend {
 	padding: 0 !important;
 }

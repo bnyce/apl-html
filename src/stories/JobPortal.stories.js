@@ -1,4 +1,5 @@
 import './job-portal.css';
+import './jobportal.actions';
 
 export default {
   title: 'Job Portal/Pages',
@@ -465,7 +466,7 @@ const JobPortalHTML = `<div class="clearfix text-formatted field field--name-bod
 
 <div id="jobportal">
 <div id="email">
-<h2><img src="/library/misc/email.png"><span class="section-heading">Get an Email Address</span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/email.png"><span class="section-heading">Get an Email Address</span></h2>
 
 <div class="details">
 <p><iframe allow="autoplay; fullscreen" allowfullscreen="" frameborder="0" height="305" src="https://player.vimeo.com/video/415251919" width="540"></iframe></p>
@@ -511,7 +512,7 @@ const JobPortalHTML = `<div class="clearfix text-formatted field field--name-bod
 </div>
 
 <div id="resume">
-<h2><img src="/library/misc/resume.png"><span class="section-heading">Create Your Resumé</span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/resume.png"><span class="section-heading">Create Your Resumé</span></h2>
 
 <div class="details">
 <p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/VjdlraonW2s" width="540"></iframe><br>
@@ -564,7 +565,7 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 </div>
 
 <div id="letter">
-<h2><img src="/library/misc/cover-letter.png"><span class="section-heading">Write Your Cover Letter</span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/cover-letter.png"><span class="section-heading">Write Your Cover Letter</span></h2>
 
 <div class="details">
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/N3jJY8GlXoM" width="560"></iframe></p>
@@ -596,7 +597,7 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 </div>
 
 <div id="search">
-<h2><img src="/library/misc/job-search2.png"><span class="section-heading">Search for Jobs</span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/job-search2.png"><span class="section-heading">Search for Jobs</span></h2>
 
 <div class="details">
 <p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/afKwiLCUtEQ" width="540"></iframe></p>
@@ -638,7 +639,7 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 </div>
 
 <div id="interview">
-<h2><img src="/library/misc/interview.png"><span class="section-heading">Prepare for Interviews</span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/interview.png"><span class="section-heading">Prepare for Interviews</span></h2>
 
 <div class="details">
 <p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/HG68Ymazo18" width="540"></iframe></p>
@@ -661,7 +662,7 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 </div>
 
 <div id="coach">
-<h2><img src="/library/misc/job-coach.png"><span class="section-heading">Get Job Coaching</span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/job-coach.png"><span class="section-heading">Get Job Coaching</span></h2>
 
 <div class="details">
 <p><iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" height="304" src="https://player.vimeo.com/video/459488883?title=0&amp;byline=0&amp;portrait=0" width="540"></iframe></p>
@@ -685,7 +686,7 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 </div>
 
 <div id="explore-careers">
-<h2><img src="/library/misc/explore-career.png"><span class="section-heading">Explore Careers</span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/explore-career.png"><span class="section-heading">Explore Careers</span></h2>
 
 <div class="details">
 <p><b><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/K2mP36DoekA" width="540"></iframe></b></p>
@@ -724,7 +725,7 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 </div>
 
 <div id="skills">
-<h2><img src="/library/misc/explore-skills.png"><span class="section-heading">Explore Skills &amp; Training </span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/explore-skills.png"><span class="section-heading">Explore Skills &amp; Training </span></h2>
 
 <div class="details">
 <h3>Resource Introductions</h3>
@@ -758,7 +759,7 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 </div>
 
 <div id="diverse">
-<h2><img src="/library/misc/diverse.png"><span class="section-heading">Explore Resources for Diverse Populations</span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/diverse.png"><span class="section-heading">Explore Resources for Diverse Populations</span></h2>
 
 <div class="details">
 <h2><b>Teens</b></h2>
@@ -904,7 +905,7 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 </div>
 
 <div id="rights">
-<h2><img src="/library/misc/rights.png"><span class="section-heading">Know Your Rights &amp; Benefits</span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/rights.png"><span class="section-heading">Know Your Rights &amp; Benefits</span></h2>
 
 <div class="details">
 <p><b><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/DBTmNm8D-84" width="540"></iframe></b></p>
@@ -943,7 +944,7 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 </div>
 
 <div id="unemployment">
-<h2><img src="/library/misc/unemployment.png"><span class="section-heading">Understanding Unemployment</span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/unemployment.png"><span class="section-heading">Understanding Unemployment</span></h2>
 
 <div class="details">
 <p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="305" src="https://www.youtube.com/embed/SXdE0x_O-rE" width="540"></iframe></p>
@@ -974,7 +975,7 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 </div>
 
 <div id="crisis">
-<h2><img src="/library/misc/crisis-support.png"><span class="section-heading">Crisis Support</span></h2>
+<h2><img src="https://library.austintexas.gov/library/misc/crisis-support.png"><span class="section-heading">Crisis Support</span></h2>
 
 <div class="details">
 <p><iframe allow="autoplay; fullscreen" allowfullscreen="" frameborder="0" height="305" src="https://player.vimeo.com/video/420788229" width="540"></iframe></p>
@@ -1003,6 +1004,6 @@ Capital Area Workforce Solutions has a more complete video on <a href="https://y
 
 export const RequestForm = () => RequestFormHTML;
 export const JobPortalSidebar = () => SidebarHTML;
-export const JobPortalPage = () => JobPortalHTML;
+export const JobPortalPage = () => '<div class="column-2">' + JobPortalHTML + '</div>';
 
 

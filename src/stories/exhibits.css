@@ -145,4 +145,6 @@ html .path-events .region.region-content {
 	z-index: 99;
 	position: relative;
 	clear: left;
+	padding-top: 1.5em;
+	cursor: pointer;
 }
