@@ -53,7 +53,6 @@ label.button,
 	background-color: white;
 	color: #0071bc;
 	border: 1px solid #0071bc !important;
-	padding: 7px 10px;
 	border-radius: 3px;
   cursor: pointer;
   font-size: 16px;
@@ -75,7 +74,7 @@ input[type="reset"],
 	background: #0071bc;
 	border: none;
 	height: auto !important;
-	padding: 10px !important;
+	padding: 10px;
 	border-radius: 3px;
 }
 
@@ -1085,6 +1084,7 @@ body{
   margin-right:0.5rem;
   text-align:center;
   text-decoration:none;
+    padding: .6em .8em;
 }
 .apl-sidebar .usa-button {
     margin-top: 20px;

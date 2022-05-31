@@ -1,6 +1,10 @@
 .region.region-content {
 	background: white;
 }
+.slr-event {
+  padding:10px;
+  line-height: 1.5;
+}
 .room_wrapper {
 	margin: 10px 0 20px;
 }

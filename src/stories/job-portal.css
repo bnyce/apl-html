@@ -121,7 +121,7 @@ input[type="reset"],
 	background: #0071bc;
 	border: none;
 	height: auto !important;
-	padding: 10px !important;
+	padding: 10px;
 	border-radius: 3px;
 }
 
