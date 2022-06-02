@@ -21,6 +21,6 @@ Status: <span id="slr_status">Awaiting Confirmation</span>
           return SLRConfirmation;
 }
 export function getSLRConfirmedString(){
-    const SLRConfirmed = '<div class="views-row"><span id="slr_update"><div id="update_status"><h2>Thank you for confirming your reservation.</h2></div></span><div class="slr-event room-3788">Meeting Topic: Movie Club <br>Full Name: Julia Croft <br>Email: croft1@gmail.com<br>How many people? 2<br>Room: Shared Learning - 522<br>Reservation Date: Thursday, May 12, 2022<br>Time Start: 9:00 AM<br>Time End: 11:00 AM<br>Status: <span id="slr_status">Confirmed</span></div></div>';
+    const SLRConfirmed = '<div class="views-row"><span id="slr_update"><div id="update_status"><h2>Thank you for confirming your shared learning room reservation.</h2></div></span><div class="slr-event room-3788">Meeting Topic: Movie Club <br>Full Name: Julia Croft <br>Email: croft1@gmail.com<br>How many people? 2<br>Room: Shared Learning - 522<br>Reservation Date: Thursday, May 12, 2022<br>Time Start: 9:00 AM<br>Time End: 11:00 AM<br>Status: <span id="slr_status">Confirmed</span></div></div>';
     return SLRConfirmed;
 }
