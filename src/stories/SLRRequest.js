@@ -7,7 +7,7 @@ export function getSLRRequestString() {
     return SLRRequestString;
 }
 export function getSLRConfirmationString(){
-    const SLRConfirmation = `<div class="views-row"><div class="slr-event room-3788">
+    const SLRConfirmation = `<div class="views-row"><span id="slr_update"><div id="update_status"><h2>Please confirm your shared learning room reservation:</h2><form><button class="usa-button" type="submit">Confirm</button></form></div></span><div class="slr-event room-3788">
 Meeting Topic: Work Meeting<br>
 Full Name: Rishika Singh<br>
 Email: rishika.m.singh@gmail.com<br>
@@ -17,10 +17,10 @@ Reservation Date: Tuesday, May 31, 2022<br>
 Time Start: 9:00 AM<br>
 Time End: 11:00 AM<br>
 Status: <span id="slr_status">Awaiting Confirmation</span>
-</div><span id="slr_update"><div id="update_status"><h2>Please confirm your reservation:</h2><form><button class="usa-button" type="submit">Confirm</button></form></div></span></div>`;
+</div></div>`;
           return SLRConfirmation;
 }
 export function getSLRConfirmedString(){
-    const SLRConfirmed = '<div class="views-row">Meeting Topic: Movie Club <br>Full Name: Julia Croft <br>Email: croft1@gmail.com<br>How many people? 2<br>Room: Shared Learning - 522<br>Reservation Date: Thursday, May 12, 2022<br>Time Start: 9:00 AM<br>Time End: 11:00 AM<br>Status: <span id="slr_status">Confirmed</span><span id="slr_update"><div id="update_status"><h2>Thank you for confirming your reservation.</h2></div></span></div>';
+    const SLRConfirmed = '<div class="views-row"><span id="slr_update"><div id="update_status"><h2>Thank you for confirming your reservation.</h2></div></span><div class="slr-event room-3788">Meeting Topic: Movie Club <br>Full Name: Julia Croft <br>Email: croft1@gmail.com<br>How many people? 2<br>Room: Shared Learning - 522<br>Reservation Date: Thursday, May 12, 2022<br>Time Start: 9:00 AM<br>Time End: 11:00 AM<br>Status: <span id="slr_status">Confirmed</span></div></div>';
     return SLRConfirmed;
 }
